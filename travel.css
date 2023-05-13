@@ -30,6 +30,11 @@ header ul{
     margin-right: 150px;
     cursor: pointer;
 }
+
+header a{
+    text-decoration: none;
+}
+
 .logo{
     display: flex;
     height: 35px;
@@ -38,7 +43,7 @@ header ul{
 }
 .border{
     width: 1px;
- height: 45px;   
+    height: 45px;   
     border-right: 2px solid white;
 
 }
@@ -58,17 +63,32 @@ section{
     text-align: center;
 }
 h1{
-    font-size: 13vh;
+    font-size: 12vh;
     color: #FFFFFF;
     margin-top: 105px;
     line-height: 100px;
+    cursor: pointer;
 
+}
 
+h1:hover{ 
+ text-decoration: underline;
+ color: darkgoldenrod;
+ font-size: 13vh;
+ font-family: cursive;
 }
 p{
     color: #FFFFFF;
     font-size: 5vh;
     line-height: 80px;
+    cursor: pointer;
+}
+
+p:hover{
+    text-decoration: underline;
+    font-size: 6vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#934099
 }
 .btn{
     padding: 16px ;
@@ -76,9 +96,9 @@ p{
     margin-top: 60px;
     border-radius: 15px;
 }
- ul:hover{
+ a:hover{
     font-size: 25px;
-    color: blue;
+    color: white;
     text-decoration: underline;
 }
 button:hover{
